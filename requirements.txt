@@ -1,0 +1,11 @@
+# Core environment for notebooks 00-01.
+# Tested on Python 3.12 with the oldest versions below (pandas 2.2.3, numpy 1.26.4, scipy 1.11.4,
+# statsmodels 0.14.2, matplotlib 3.8.4) and with the latest releases as of October 2026
+# (pandas 3.0, numpy 2.4, statsmodels 0.15). Both give identical results.
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+statsmodels>=0.14.2
+matplotlib>=3.8
+jupyterlab>=4.0
+ipykernel>=6.0

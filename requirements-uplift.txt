@@ -1,0 +1,8 @@
+# Added when the project reaches the uplift-modelling notebooks (02 onwards).
+# Install after requirements.txt:  pip install -r requirements.txt -r requirements-uplift.txt
+# These resolved together on Python 3.12 in October 2026 (econml 0.17, causalml 0.17, scikit-uplift 0.5.1).
+# They have not been run yet, so no minimum versions are claimed.
+scikit-learn
+econml
+causalml
+scikit-uplift
