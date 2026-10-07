@@ -1,7 +1,9 @@
 # Core environment for notebooks 00-01.
-# Tested on Python 3.12 with the oldest versions below (pandas 2.2.3, numpy 1.26.4, scipy 1.11.4,
-# statsmodels 0.14.2, matplotlib 3.8.4) and with the latest releases as of October 2026
-# (pandas 3.0, numpy 2.4, statsmodels 0.15). Both give identical results.
+# Tested on Python 3.12 (oldest and newest library versions listed below) and on Python 3.14.
+# Oldest: pandas 2.2.3, numpy 1.26.4, scipy 1.11.4, statsmodels 0.14.2, matplotlib 3.8.4.
+# Newest as of October 2026: pandas 3.0, numpy 2.5, scipy 1.18, statsmodels 0.15.
+# Results agree to at least six decimal places; the minimum-detectable-effects table differs
+# at about the 1e-7 level between SciPy versions because a numerical solver produces it.
 pandas>=2.2
 numpy>=1.26
 scipy>=1.11
